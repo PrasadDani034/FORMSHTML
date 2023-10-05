@@ -1,57 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>FORM</title>
 </head>
 <body>
     <fieldset>
         <legend>Personal Details:</legend>
-        <form>
+        <form action="/success.html">
             <label for="firstname">First name: </label>
             <input type="text" name="firstname"  required>
-            <br>
+            <br><br>
             <label for="lastname">Last name: </label>
             <input type="text" name="lastname"  required>
-            <br>
+            <br><br>
             <label for="email">email: </label>
             <input type="email" name="email"  required>
-            <br>
+            <br><br>
             <label for="password">password: </label>
             <input type="password" name="password"  required>
-            <br>
+            <br><br>
+            <label for="date"> DOB: </label>
+            <input type="date" name="date" required>
+            <br><br>
+           
         </form>
     </fieldset>
 
     <fieldset>
       <legend>Other Details:</legend>
-      <form>
-        <input type="radio" id="html" name="fav_language" value="HTML">
-<label for="html">CSE</label>
-<input type="radio" id="css" name="fav_language" value="CSS">
-<label for="css">ECE</label>
-<input type="radio" id="javascript" name="fav_language" value="JavaScript">
-<label for="javascript">ISE</label><br><br>
+      <form >
+        <label for="brh"> Branch: </label>
+        <input type="radio" id="cse" name="brh" value="HTML">
+        <label for="cse">CSE</label>
+        <input type="radio" id="ece" name="brh" value="CSS">
+        <label for="ece">ECE</label>
+        <input type="radio" id="ise" name="brh" value="JavaScript">
+        <label for="ise">ISE</label><br><br>
 
+        <label for="skills">Skills: </label>
         <input type="checkbox" id="html" name="fav_language" value="HTML">
-<label for="html">HTML</label>
-<input type="checkbox" id="css" name="fav_language" value="CSS">
-<label for="css">CSS</label>
-<input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
-<label for="javascript">JavaScript</label>
-  <label for="browser">Choose your browser from the list:</label>
-    <input list="browsers" name="browser" id="browser">
-    <datalist id="browsers">
-      <option value="Edge">
-      <option value="Firefox">
-      <option value="Chrome">
-      <option value="Opera">
-      <option value="Safari">
-    </datalist>
-           <input type="submit" value="Login!">
-    </form>
-
-  
-
-
+        <label for="html">HTML</label>
+       <input type="checkbox" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label>
+      <input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+        <br><br>
+        <label for="yoj">Year of joining:</label>
+        <input list="yojs" name="yoj" id="yoj">
+         <datalist id="yojs">
+          <option value="2019">
+          <option value="2020">
+          <option value="2021">
+          <option value="2022">
+          <option value="2023">
+</datalist>
+<br><br>
+   
+</fieldset><br>
+    <input type="submit" value="Submit" formaction="/success.html">
+</form>
 </body>
 </html>
