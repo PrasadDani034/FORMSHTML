@@ -1,63 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>FORM</title>
+    <title>Student Details</title>
+    <link rel="stylesheet" href="from.css">
 </head>
 <body>
-    <fieldset>
-        <legend>Personal Details:</legend>
-        <form action="success.html">
-            <label for="firstname">First name: </label>
-            <input type="text" name="firstname"  required>
-            <br><br>
-            <label for="lastname">Last name: </label>
-            <input type="text" name="lastname"  required>
-            <br><br>
-            <label for="email">email: </label>
-            <input type="email" name="email"  required>
-            <br><br>
-            <label for="password">password: </label>
-            <input type="password" name="password"  required>
-            <br><br>
-            <label for="date"> DOB: </label>
-            <input type="date" name="date" required>
-            <br><br>
-           
-        </form>
-    </fieldset>
-
-    <fieldset>
-      <legend>Other Details:</legend>
-      <form action = "success.html >
-        <label for="brh"> Branch: </label>
-        <input type="radio" id="cse" name="brh" value="HTML">
-        <label for="cse">CSE</label>
-        <input type="radio" id="ece" name="brh" value="CSS">
-        <label for="ece">ECE</label>
-        <input type="radio" id="ise" name="brh" value="JavaScript">
-        <label for="ise">ISE</label><br><br>
-
-        <label for="skills">Skills: </label>
-        <input type="checkbox" id="html" name="fav_language" value="HTML">
-        <label for="html">HTML</label>
-       <input type="checkbox" id="css" name="fav_language" value="CSS">
-        <label for="css">CSS</label>
-      <input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
-        <label for="javascript">JavaScript</label>
+    <form action="success.html">
+    <fieldset  class="one">
+        <legend>Personal Details</legend>
+        <label for="fname">First Name</label>
+        <input type="text"placeholder="" required id="fname" name="fname" id="fname">
         <br><br>
-        <label for="yoj">Year of joining:</label>
-        <input list="yojs" name="yoj" id="yoj">
-         <datalist id="yojs">
-          <option value="2019">
-          <option value="2020">
-          <option value="2021">
-          <option value="2022">
-          <option value="2023">
-</datalist>
-<br><br>
-   
-</fieldset><br>
-    <input type="submit" value="Submit" formaction="success.html">
-</form>
+        <label for="mname">Middle Name</label>
+        <input type="text" placeholder="" required id="mname" name="mname" id="mname" >
+        <br><br>
+        <label for="lname">Last Name</label>
+        <input type="text"placeholder="" required id="lname" name="lname" id="lname">
+        <br><br>
+        <label for="dob">DOB</label>
+        <input type="date"placeholder="" required id="dob" name="dob" id="dob">
+        <br><br>
+        <label for="mail">Email</label>
+        <input type="email"placeholder="" name="mail" id="mail">
+    </fieldset>
+    <fieldset class="two">
+        <legend>Educational Details</legend>
+        <label for="dept" >DEPARTMENT</label><br><br>
+        <input type="radio"  name="dept" id="cse">
+        <label for="cse">CSE</label><br>
+        <input type="radio"  name="dept" id="ece">
+        <label for="ece">ECE</label><br>
+        <input type="radio"  name="dept" id="mech">
+        <label for="mech">Mech</label><br>
+        <input type="radio"  name="dept" id="civil">
+        <label for="civil">Civil</label>
+        <br><br>
+        <label for="yop">YOP</label>
+        <input list="yog" name="yop" id="yop" >
+        <br><br>
+        <datalist id="yog">
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+            <option>2024</option>
+        </datalist>
+
+        <label for="skl" >SKILLS</label><br><br>
+        <input type="checkbox"  name="skl" id="html">
+        <label for="html">HTML</label><br>
+        <input type="checkbox"  name="skl" id="css">
+        <label for="css">CSS</label><br>
+        <input type="checkbox"  name="skl" id="javas">
+        <label for="javas">JAVASCRIPT</label><br>
+        <input type="checkbox"  name="skl" id="sql">
+        <label for="sql">SQL</label><br>
+        <input type="checkbox"  name="skl" id="java">
+        <label for="java">JAVA</label>
+    
+
+
+    </fieldset><br>
+    <input class="btn" type="submit" value ="submit" formaction="success.html">
+    </form>
+
+    
 </body>
 </html>
