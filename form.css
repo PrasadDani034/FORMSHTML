@@ -1,0 +1,17 @@
+fieldset{
+    width: 30%;
+}
+
+.one{
+    background-color: bisque;
+}
+
+.two{
+    background-color: cornflowerblue;
+}
+
+.btn{
+    width: 100px;
+    color: gold;
+    background-color: brown;
+}
