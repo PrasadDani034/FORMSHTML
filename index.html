@@ -5,68 +5,72 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <form action="success.html">
-    <fieldset  class="one">
-        <legend>Personal Details</legend>
-        <label for="fname">First Name</label>
-        <input type="text"placeholder="" required id="fname" name="fname" id="fname">
-        <br><br>
-        <label for="mname">Middle Name</label>
-        <input type="text" placeholder="" required id="mname" name="mname" id="mname" >
-        <br><br>
-        <label for="lname">Last Name</label>
-        <input type="text"placeholder="" required id="lname" name="lname" id="lname">
-        <br><br>
-        <label for="dob">DOB</label>
-        <input type="date"placeholder="" required id="dob" name="dob" id="dob">
-        <br><br>
-        <label for="mail">Email</label>
-        <input type="email"placeholder="" name="mail" id="mail">
-    </fieldset>
-    <fieldset class="two">
-        <legend>Educational Details</legend>
-        <label for="dept" >DEPARTMENT</label><br><br>
-        <input type="radio"  name="dept" id="cse">
-        <label for="cse">CSE</label><br>
-        <input type="radio"  name="dept" id="ece">
-        <label for="ece">ECE</label><br>
-        <input type="radio"  name="dept" id="mech">
-        <label for="mech">Mech</label><br>
-        <input type="radio"  name="dept" id="civil">
-        <label for="civil">Civil</label>
-        <br><br>
-        <label for="yop">YOP</label>
-        <input list="yog" name="yop" id="yop" >
-        <br><br>
-        <datalist id="yog">
-            <option>2017</option>
-            <option>2018</option>
-            <option>2019</option>
-            <option>2020</option>
-            <option>2021</option>
-            <option>2022</option>
-            <option>2023</option>
-            <option>2024</option>
-        </datalist>
 
-        <label for="skl" >SKILLS</label><br><br>
-        <input type="checkbox"  name="skl" id="html">
-        <label for="html">HTML</label><br>
-        <input type="checkbox"  name="skl" id="css">
-        <label for="css">CSS</label><br>
-        <input type="checkbox"  name="skl" id="javas">
-        <label for="javas">JAVASCRIPT</label><br>
-        <input type="checkbox"  name="skl" id="sql">
-        <label for="sql">SQL</label><br>
-        <input type="checkbox"  name="skl" id="java">
-        <label for="java">JAVA</label>
-    
-
-
-    </fieldset><br>
-    <input class="btn" type="submit" value ="submit" formaction="success.html">
-    </form>
-
+        <form>
+            <form action="success.html">
+                    <fieldset  class="one">
+                        <legend class="legend">Personal Details</legend>
+                        <label class="required" for="fname">First Name</label>
+                        <input type="text"placeholder="Ex. Prasad" required id="fname"  name="fname" id="fname">
+                        <br><br>
+                        <label for="mname">Middle Name</label>
+                        <input type="text" placeholder="" name="mname" id="mname" >
+                        <br><br>
+                        <label class="required" for="lname">Last Name</label>
+                        <input type="text"placeholder="Ex. Dani" required id="lname" name="lname" id="lname">
+                        <br><br>
+                        <label class="required" for="dob">DOB</label>
+                        <input type="date"placeholder="" required id="dob" name="dob" id="dob">
+                        <br><br>
+                        <label class="required" for="mail">Email</label>
+                        <input type="email"placeholder="abc@xyx.co" name="mail" id="mail">
+                    </fieldset>
+                <br>
+                    <fieldset class="one">
+                        <legend class="legend">Educational Details</legend>
+                        <label class="required" for="dept" >DEPARTMENT</label><br>
+                        <input type="radio"  name="dept" id="cse">
+                        <label  for="cse">CSE</label>
+                        <input type="radio"  name="dept" id="ece">
+                        <label for="ece">ECE</label>
+                        <input type="radio"  name="dept" id="mech">
+                        <label for="mech">Mech</label>
+                        <input type="radio"  name="dept" id="civil">
+                        <label for="civil">Civil</label>
+                        <br><br>
+                        <label class="required" for="yop">YOP</label>
+                        <input list="yog" name="yop" id="yop" >
+                        <br><br>
+                        <datalist class="required" id="yog">
+                            <option>2017</option>
+                            <option>2018</option>
+                            <option>2019</option>
+                            <option>2020</option>
+                            <option>2021</option>
+                            <option>2022</option>
+                            <option>2023</option>
+                            <option>2024</option>
+                        </datalist>
+                
+                        <label for="skl" >SKILLS</label><br><br>
+                        <input type="checkbox"  name="skl" id="html">
+                        <label for="html">HTML</label><br>
+                        <input type="checkbox"  name="skl" id="css">
+                        <label for="css">CSS</label><br>
+                        <input type="checkbox"  name="skl" id="javas">
+                        <label for="javas">JAVASCRIPT</label><br>
+                        <input type="checkbox"  name="skl" id="sql">
+                        <label for="sql">SQL</label><br>
+                        <input type="checkbox"  name="skl" id="java">
+                        <label for="java">JAVA</label>
+                    
+                
+                
+                    </fieldset><br>
+                <!-- <button class= "submit-button" formaction="success.html">Submit</button> -->
+                <a href="success.html">Submit</a>
+                </form>
+        </form>
     
 </body>
 </html>
