@@ -1,17 +1,59 @@
-fieldset{
-    width: 30%;
+html{
+    background-color: rgb(251, 241, 227);
 }
+form {
+    display: table-cell;
+    padding: 1px;;
+  }
+a{
+   text-align: center;
+   text-decoration: none;
+   border: solid;
+   color: black;
+   background-color: #906a6a;
+   padding: 10px 20px;
+   cursor: pointer;
+   border-radius: 15px;
+}
+a:hover{
+    background-color: rosybrown;
+    size: 5px;
+    color: black;
+
+
+}
+.legend{
+    border: black 2px solid ;
+    background-color: hsla(44, 94%, 88%, 0.873);
+    border-style: dashed;
+}
+
 
 .one{
-    background-color: bisque;
+    background-color: antiquewhite;
 }
 
-.two{
-    background-color: cornflowerblue;
+.required::after{
+    content: ' *';
+    color: red;
+
 }
 
-.btn{
-    width: 100px;
-    color: gold;
-    background-color: brown;
+input {
+    appearance: auto;
+    border: 0.1rem solid #906a6a;
+    background-color: var(--bg-color); 
 }
+/* SUBMIT BUTTTON
+/* .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    /* border: none; */
+    /* border-radius: 5px; */
+    /* cursor: pointer; */
+/* }
+
+.submit-button:hover {
+    background-color: #1184ff;
+} */ 
