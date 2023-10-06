@@ -5,16 +5,7 @@ form {
     display: table-cell;
     padding: 1px;;
   }
-a{
-   text-align: center;
-   text-decoration: none;
-   border: solid;
-   color: black;
-   background-color: #906a6a;
-   padding: 10px 20px;
-   cursor: pointer;
-   border-radius: 15px;
-}
+
 a:hover{
     background-color: rosybrown;
     size: 5px;
@@ -44,16 +35,19 @@ input {
     border: 0.1rem solid #906a6a;
     background-color: var(--bg-color); 
 }
-/* SUBMIT BUTTTON
-/* .submit-button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    /* border: none; */
-    /* border-radius: 5px; */
-    /* cursor: pointer; */
-/* }
+.submit-button {
+    text-align: center;
+   text-decoration: none;
+   border: solid;
+   color: black;
+   background-color: #906a6a;
+   padding: 10px 20px;
+   cursor: pointer;
+   border-radius: 15px;
+}
 
 .submit-button:hover {
-    background-color: #1184ff;
-} */ 
+    background-color: rosybrown;
+    size: 5px;
+    color: black;
+} 
